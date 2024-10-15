@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7DBC98A-2C1B-879E-C91F-E3FCB199F5A9" name="Prestamos">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>5696E7D1-EDD8-A974-0F08-B9A9BCAF16E8</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A9DFCEFD-95CD-9D77-01BB-3F80BA1890FB">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>9DBA0459-C029-3ABC-AF8A-1B54C9DB49A4</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="791ED4F3-DEBD-2E61-0E84-00FF3B2B064D">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>C4AD2C44-6840-4BF4-A898-356F6F778358</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tasa_de_interes" id="1C51F282-B92A-663F-FA7A-6CC1CF58CEB7">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>B06A980F-9D16-D18D-B597-C001D6CC023D</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_desembolso" id="59D04DF8-865B-E76A-FB27-E75474CD8F8E">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>1B788EDD-E5D7-6950-4EC3-24B1ABCB7B59</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_vencimiento" id="66A85E79-92C6-42EC-A8C6-3EA299487D05">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>0CC3A349-FF1D-1B8B-33A5-5F8AC5937D46</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo_pendiente" id="5BED31B1-39D3-3AAA-C1FF-4DFD1D711D2B">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>48DD1345-AD32-DC8D-D5AE-7784039F850D</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="6988F936-F472-59FF-AE8B-2ABF3DECABAC">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>C50CC01F-0D07-06A5-40C0-5799C6E3966B</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_id" id="AEC19D89-E38F-317C-CB72-9BBC0E50A7A1">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>5C01B0A7-5C48-42B3-398E-E4CF56A0896E</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B60E963-FF7A-1FEA-4303-0FF7EA14C831" referredColumn="047039F4-CD46-2171-45CF-6F07A031B2BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F249699-0E90-3706-A627-A8EEB86A394D" name="Prestamos_PK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>30721CAA-2CC7-5068-968A-7D72181CA1A0</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9DFCEFD-95CD-9D77-01BB-3F80BA1890FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31D5CFCD-BF3C-33AF-CE87-D16DD2F264B5" name="Prestamos_Clientes_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>D8A25134-120F-D7F6-0B04-7EE64C0B73C1</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC19D89-E38F-317C-CB72-9BBC0E50A7A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

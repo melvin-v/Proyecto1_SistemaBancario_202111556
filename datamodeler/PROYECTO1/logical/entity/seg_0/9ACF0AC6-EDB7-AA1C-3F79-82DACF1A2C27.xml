@@ -27,18 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo" id="38314D04-C1AF-A8D5-F43B-6DDF09241FA2">
-<createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:01:36 UTC</createdTime>
-<ownerDesignName>PROYECTO1</ownerDesignName>
-<engineerTo>
-<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="saldo" id="70D9DB41-405E-22CA-0CC0-B31DE27C362D">
 <createdBy>Melvin Valencia</createdBy>
 <createdTime>2024-09-20 17:02:08 UTC</createdTime>
@@ -49,6 +37,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="79BC393F-E6BC-E660-385A-6F66F629A7C9">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:20:57 UTC</createdTime>
+<generatorID>DF2DC955-AC22-BB1C-6A18-D82A6325F65C</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>F4EE86F9-D5EB-09C2-252D-769E813A557E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="6F1367BE-9AF6-7FBC-6B60-E5B44E2CE02A">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:21:12 UTC</createdTime>
+<generatorID>6B11EE6C-1015-2297-45A0-EBEAE97AB2DB</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>97981760-18AA-DE8F-7F94-0D01F7094ADD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

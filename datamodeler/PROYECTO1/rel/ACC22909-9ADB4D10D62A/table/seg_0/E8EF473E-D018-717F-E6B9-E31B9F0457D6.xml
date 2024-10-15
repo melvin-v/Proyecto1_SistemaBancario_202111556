@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8EF473E-D018-717F-E6B9-E31B9F0457D6" name="Clientes">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>8721DC43-CC3F-80A9-F106-5A933FEF2193</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="047039F4-CD46-2171-45CF-6F07A031B2BD">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>F4EE86F9-D5EB-09C2-252D-769E813A557E</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3181B38E-C318-7F81-BFEA-AC84D2E1AC22">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>1C0A87CC-C15F-2753-1FFB-AE798A943685</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="F010B010-4ECC-59C4-85CE-A74F8DF2F172">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>7D547247-79E3-C2ED-E4E9-6F6A1AA81F20</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="85106C65-BED5-6A16-D5AB-CD4CD71993C5">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>5E2589C3-FEFD-6529-C00A-EE10F9B759D7</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9673CCB1-0066-1806-778F-6F00ED2B2101" name="Clientes_PK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>235D5D47-2EF3-9623-E83A-9BB333E92E1E</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="047039F4-CD46-2171-45CF-6F07A031B2BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

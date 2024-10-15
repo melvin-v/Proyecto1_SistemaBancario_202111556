@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86F6FEFD-4632-B8F2-20EA-FADE47AF398D" name="Agencias">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86F6FEFD-4632-B8F2-20EA-FADE47AF398D" name="Agencias_sucursal">
 <createdBy>Melvin Valencia</createdBy>
 <createdTime>2024-09-20 17:18:49 UTC</createdTime>
 <ownerDesignName>PROYECTO1</ownerDesignName>
@@ -37,19 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tipo" id="BDAA5B11-7992-51AC-AFE9-D8053CA142E7">
-<createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:19:27 UTC</createdTime>
-<ownerDesignName>PROYECTO1</ownerDesignName>
-<engineerTo>
-<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="F918503B-4A08-1DDD-DFDF-803C5D3E4176">
 <createdBy>Melvin Valencia</createdBy>
@@ -61,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="codigo_postal" id="11101618-B5B6-9D90-684B-6BB6553F4B10">
 <createdBy>Melvin Valencia</createdBy>
@@ -82,6 +72,35 @@
 <engineerTo>
 <item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento" id="0DDB21FA-08C7-C24E-DE71-1B2B7C22290E">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:42:12 UTC</createdTime>
+<generatorID>746AA4E0-E56E-5F76-8C6C-A0F097438E16</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>AC1105CB-08E3-A283-214B-D34D62D843BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="AEC51D22-258F-63F3-E02D-E43FA9D33E57">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 02:27:11 UTC</createdTime>
+<generatorID>8A830F81-C66B-844F-F55B-1BA4C78B5FB3</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>901AF969-90BE-709C-7855-E13EE411E7F1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

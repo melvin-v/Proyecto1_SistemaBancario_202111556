@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19446A26-B146-E501-9A07-C1FD15AE36FC" name="Departamentos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CECEA433-A623-9EB0-5D1A-D732B0A15E24" name="Tipos_de_cuentas">
 <createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:21:30 UTC</createdTime>
+<createdTime>2024-09-26 19:01:19 UTC</createdTime>
 <ownerDesignName>PROYECTO1</ownerDesignName>
 <engineerTo>
 <item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
@@ -15,9 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="departamento" id="AC1105CB-08E3-A283-214B-D34D62D843BF">
+<Attribute name="id" id="97981760-18AA-DE8F-7F94-0D01F7094ADD">
 <createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:21:55 UTC</createdTime>
+<createdTime>2024-09-26 19:01:32 UTC</createdTime>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_de_cuenta" id="E8F696BE-87DA-58E7-40AC-FF25610ADB42">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-26 19:01:42 UTC</createdTime>
 <ownerDesignName>PROYECTO1</ownerDesignName>
 <engineerTo>
 <item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
@@ -25,21 +37,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7D2570E5-A4B9-0501-209A-05D9BA6F3532" name="Departamento PK">
+<identifier id="898CCAC5-DD14-50D5-92A9-8073C781AA68" name="Tipos_de_cuentas PK">
 <createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:22:28 UTC</createdTime>
+<createdTime>2024-09-26 19:01:40 UTC</createdTime>
 <ownerDesignName>PROYECTO1</ownerDesignName>
 <engineerTo>
 <item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AC1105CB-08E3-A283-214B-D34D62D843BF</attributeRef>
+<attributeRef>97981760-18AA-DE8F-7F94-0D01F7094ADD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

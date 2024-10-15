@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A8BD2A5-31D3-6C68-A86F-67A5F727A90B" name="Agencias_sucursal">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>86F6FEFD-4632-B8F2-20EA-FADE47AF398D</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="12ACA27E-8DD8-B7F5-0E3A-DA500E12E603">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>1537764D-417E-80CE-F280-E05322059066</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8729A301-831E-1456-6008-F00948758C17">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>48A657BE-CF71-62D9-E951-6683A0B4A497</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="3B39D008-EAFD-0058-BCF6-565DFA495DEE">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>F918503B-4A08-1DDD-DFDF-803C5D3E4176</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_postal" id="910B4A43-3A18-48E0-D9BA-14C40677FB3D">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>11101618-B5B6-9D90-684B-6BB6553F4B10</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="1C6FB322-D0CC-2A47-5E60-6B1C5031BCCD">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>E72FBDAD-EDBB-08C1-BF96-E5FB46CFF34C</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamentos_departamento" id="BCE63E88-31DD-ABB1-CDA8-B64012BCBDA2">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>0DDB21FA-08C7-C24E-DE71-1B2B7C22290E</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="197071A4-C8B8-C77B-B819-62E5514ED284" referredColumn="FC963BDA-9F75-AEF1-E958-A3AFC065770E"/>
+</associations>
+</Column>
+<Column name="Tipo_agencia_sucursal_id" id="8158F542-E321-20B2-6C95-51E76301AF2D">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>AEC51D22-258F-63F3-E02D-E43FA9D33E57</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DAB4B2B-24C9-454F-D40E-B22B458FE16B" referredColumn="AB97CE68-8635-5C00-6B70-F7F1167B9FD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AA3E877-7A75-B88D-107F-CB9DF0FCFC67" name="Agencias_sucursal_PK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>7700FFDE-FB9F-34FC-5D9A-D056CFBB6888</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12ACA27E-8DD8-B7F5-0E3A-DA500E12E603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="976F70C5-74BB-27EA-76FD-5D0B89470349" name="Agencias_sucursal_Tipo_agencia_sucursal_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>8A830F81-C66B-844F-F55B-1BA4C78B5FB3</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8158F542-E321-20B2-6C95-51E76301AF2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11BC1FEE-BD06-3AA0-596B-7B8CDE5C0F14" name="Agencias_sucursal_Departamentos_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>746AA4E0-E56E-5F76-8C6C-A0F097438E16</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCE63E88-31DD-ABB1-CDA8-B64012BCBDA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19446A26-B146-E501-9A07-C1FD15AE36FC" name="Departamentos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FCEEF7A-1CF0-9882-0B3B-069DB4D07D1F" name="Tipo_agencia_sucursal">
 <createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:21:30 UTC</createdTime>
+<createdTime>2024-09-28 02:24:45 UTC</createdTime>
 <ownerDesignName>PROYECTO1</ownerDesignName>
 <engineerTo>
 <item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
@@ -15,9 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="departamento" id="AC1105CB-08E3-A283-214B-D34D62D843BF">
+<Attribute name="id" id="901AF969-90BE-709C-7855-E13EE411E7F1">
 <createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:21:55 UTC</createdTime>
+<createdTime>2024-09-28 02:25:13 UTC</createdTime>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_agencia_sucursal" id="F3538BA8-FD50-CD4D-2BFA-631DD6C97C21">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 02:25:27 UTC</createdTime>
 <ownerDesignName>PROYECTO1</ownerDesignName>
 <engineerTo>
 <item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
@@ -25,21 +37,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7D2570E5-A4B9-0501-209A-05D9BA6F3532" name="Departamento PK">
+<identifier id="B43CF55C-2491-DCBA-8695-45B0493FA3AC" name="Tipo_agencia_sucursal PK">
 <createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:22:28 UTC</createdTime>
+<createdTime>2024-09-28 02:25:22 UTC</createdTime>
 <ownerDesignName>PROYECTO1</ownerDesignName>
 <engineerTo>
 <item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AC1105CB-08E3-A283-214B-D34D62D843BF</attributeRef>
+<attributeRef>901AF969-90BE-709C-7855-E13EE411E7F1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

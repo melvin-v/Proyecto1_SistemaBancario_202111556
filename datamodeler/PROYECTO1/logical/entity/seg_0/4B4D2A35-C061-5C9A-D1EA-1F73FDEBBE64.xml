@@ -27,18 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo" id="6D4B2268-2CFA-0CB4-D789-FB0060BC414D">
-<createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:04:10 UTC</createdTime>
-<ownerDesignName>PROYECTO1</ownerDesignName>
-<engineerTo>
-<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="monto" id="B5889E2D-735C-DC15-A5E7-1C3F030D2A2F">
 <createdBy>Melvin Valencia</createdBy>
 <createdTime>2024-09-20 17:04:41 UTC</createdTime>
@@ -48,7 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha" id="3BE27E28-9BEC-BE2C-5948-EC011468E9EC">
@@ -85,6 +73,49 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="294ED3EC-3865-9D65-7ABF-6616E2396779">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:22:19 UTC</createdTime>
+<generatorID>DEBD5CDC-A14A-2201-0D25-39705EA3980C</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>3DD3064C-4DC3-AE7D-5C11-68826BE44F90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="2FFA17BF-6805-105E-41C6-8C25EBAF78CB">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:26:02 UTC</createdTime>
+<generatorID>815627C7-AA3C-19EC-A0EB-BCB4605C809A</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>F4EE86F9-D5EB-09C2-252D-769E813A557E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="B6353612-1437-B104-F572-834D39AF9090">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:58:49 UTC</createdTime>
+<generatorID>D976124C-4466-5160-AD13-04F8491E41CA</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>1537764D-417E-80CE-F280-E05322059066</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

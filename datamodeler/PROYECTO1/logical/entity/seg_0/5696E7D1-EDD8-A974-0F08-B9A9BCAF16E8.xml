@@ -97,6 +97,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="5C01B0A7-5C48-42B3-398E-E4CF56A0896E">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:26:33 UTC</createdTime>
+<generatorID>D8A25134-120F-D7F6-0B04-7EE64C0B73C1</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>F4EE86F9-D5EB-09C2-252D-769E813A557E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

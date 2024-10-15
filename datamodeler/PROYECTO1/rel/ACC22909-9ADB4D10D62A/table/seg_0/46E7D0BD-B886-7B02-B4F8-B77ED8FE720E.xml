@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46E7D0BD-B886-7B02-B4F8-B77ED8FE720E" name="Transacciones">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>4B4D2A35-C061-5C9A-D1EA-1F73FDEBBE64</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F95A0D5B-C9C2-7D42-455A-23C650EC8BEB">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>F316E6DF-7124-B533-B906-9E4975DC0FF8</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="2D2A5ABC-56AF-146E-2FB3-6A5CC43F46AE">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>B5889E2D-735C-DC15-A5E7-1C3F030D2A2F</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="8F06F9D9-6E23-F0CD-CB41-DAE5E8361005">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>3BE27E28-9BEC-BE2C-5948-EC011468E9EC</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="B22A2494-364D-208D-958E-58BEAF30762D">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>FA3F6B5E-4380-362F-55A1-FCF91234ADC9</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="047DF110-5E47-1BD0-8AAF-867BDA4EE1BD">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>0EF34DB6-3C3C-90B0-A77A-F1476DB38BE0</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipos_de_transacciones_id" id="FF4167A2-6CDD-D1F2-31CD-F11203E93830">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>294ED3EC-3865-9D65-7ABF-6616E2396779</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7831E08F-93F0-5334-6187-CB07FCE0102E" referredColumn="C8104179-AA59-6BE5-399A-BE7797B0FA98"/>
+</associations>
+</Column>
+<Column name="Clientes_id" id="AC985C19-06D7-506A-4DFA-7F505601D2F3">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>2FFA17BF-6805-105E-41C6-8C25EBAF78CB</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCB08BCC-A681-995F-5432-6B01C747BB1E" referredColumn="047039F4-CD46-2171-45CF-6F07A031B2BD"/>
+</associations>
+</Column>
+<Column name="Agencias_sucursal_id" id="CC4008D6-F61B-5779-4E59-DC9241F89542">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>B6353612-1437-B104-F572-834D39AF9090</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFE694A2-81D9-2221-166E-BE1B6E551AE1" referredColumn="12ACA27E-8DD8-B7F5-0E3A-DA500E12E603"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F402C5B9-35F4-21EB-0267-219E24A0D844" name="Transacciones_PK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>4E8D4AF6-019F-7083-90D8-230C0B807E41</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F95A0D5B-C9C2-7D42-455A-23C650EC8BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B48A6E66-C110-3F3E-EE29-481E6BE3575B" name="Transacciones_Agencias_sucursal_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>D976124C-4466-5160-AD13-04F8491E41CA</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC4008D6-F61B-5779-4E59-DC9241F89542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53A2E76A-DD27-4C6D-E5F3-43D81A5CFC6C" name="Transacciones_Tipos_de_transacciones_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>DEBD5CDC-A14A-2201-0D25-39705EA3980C</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4167A2-6CDD-D1F2-31CD-F11203E93830"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5680328-1FB0-140B-B95E-1DA916BDD2EC" name="Transacciones_Clientes_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>815627C7-AA3C-19EC-A0EB-BCB4605C809A</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC985C19-06D7-506A-4DFA-7F505601D2F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

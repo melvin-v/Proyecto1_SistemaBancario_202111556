@@ -87,18 +87,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado" id="DA176B6B-CC7A-3BA3-0663-830D4460B032">
-<createdBy>Melvin Valencia</createdBy>
-<createdTime>2024-09-20 17:15:04 UTC</createdTime>
-<ownerDesignName>PROYECTO1</ownerDesignName>
-<engineerTo>
-<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="fecha_de_corte" id="F48C1CD7-AD15-DDF0-FB6B-B9176960B81D">
 <createdBy>Melvin Valencia</createdBy>
 <createdTime>2024-09-20 17:15:24 UTC</createdTime>
@@ -121,6 +109,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3754BD87-3553-8B7F-E715-2F1A80891E12">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:22:01 UTC</createdTime>
+<generatorID>51840F88-CE7A-3033-1443-AA26C7EE4734</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>8AD4E857-64FF-7178-9C1C-76C6E8B59AEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="E894080D-F00B-7E73-D755-7BD5D9F6ADF2">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-27 23:26:56 UTC</createdTime>
+<generatorID>D084FE51-EB9E-5988-FF93-95095098A719</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<engineerTo>
+<item key="ACC22909-3B71-25AF-E9BA-9ADB4D10D62A" value="true"/>
+</engineerTo>
+<referedAttribute>F4EE86F9-D5EB-09C2-252D-769E813A557E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28FB9C3B-D09B-BE87-7EFC-0D931FF8F83E" name="Cuentas">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>9ACF0AC6-EDB7-AA1C-3F79-82DACF1A2C27</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="42BC4360-1C9C-9321-9694-B626B8AC119B">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>FB2BACD7-FCA5-4C3A-CA89-1187738F5980</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo" id="36590EE5-E274-D758-2576-E88682A5AE6A">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>70D9DB41-405E-22CA-0CC0-B31DE27C362D</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_id" id="C4F19EB6-D28F-4689-2FE8-63CB17977D7E">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>79BC393F-E6BC-E660-385A-6F66F629A7C9</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58C37ECA-C214-B2BB-88AA-DA6DF70BB1E3" referredColumn="047039F4-CD46-2171-45CF-6F07A031B2BD"/>
+</associations>
+</Column>
+<Column name="Tipos_de_cuentas_id" id="C21F0B08-A0E4-9772-D4F4-71A885FEB66C">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>6F1367BE-9AF6-7FBC-6B60-E5B44E2CE02A</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27854AB7-9177-A7FE-692E-46564D8FB88D" referredColumn="3AEF182B-C495-B61E-7079-C87CD10893F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="356B660B-CAF4-D068-64B8-BB9D7725CF46" name="Cuentas_PK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>683DFAB1-C0F0-B1C5-CDE8-942CA4AAEA8A</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BC4360-1C9C-9321-9694-B626B8AC119B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBE15E55-EB24-65D4-C77D-B490CFC2B3C8" name="Cuentas_Clientes_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>DF2DC955-AC22-BB1C-6A18-D82A6325F65C</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4F19EB6-D28F-4689-2FE8-63CB17977D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B42715D5-D41F-9021-5A3F-56655D51FCC0" name="Cuentas_Tipos_de_cuentas_FK">
+<createdBy>Melvin Valencia</createdBy>
+<createdTime>2024-09-28 22:10:01 UTC</createdTime>
+<generatorID>6B11EE6C-1015-2297-45A0-EBEAE97AB2DB</generatorID>
+<ownerDesignName>PROYECTO1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C21F0B08-A0E4-9772-D4F4-71A885FEB66C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
